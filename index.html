@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Fintech</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid ">
+            <div class="row align-items-center text-start">
+                <div class="icone-seta col">
+                    <svg width="30" height="30" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="15" height="15" fill="url(#pattern0_28_59)" />
+                        <defs>
+                            <pattern id="pattern0_28_59" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_28_59" transform="scale(0.02)" />
+                            </pattern>
+                            <image id="image0_28_59" width="50" height="50"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAlklEQVR4nO3ZsQ3CQBQE0d+ET9B/JUQIBAkElDPI4gJEA+w/zavgVuPAPldJigcM4A6cqvmIJx+X6gjYgMcc8QIO1Y0jUlgihSVSWCKFJVJYIgW+AIbAEiFYocQOuM0R+2fqqK5YaMj282gdqyscEwrLhMIyobBMKMukskwqy6SyTKrVyoyv39PX6myO2e8Azv8+i7SqN6spz99oA0EqAAAAAElFTkSuQmCC" />
+                        </defs>
+                    </svg>
+                </div>
+                <div class="col text-center">
+                    <h2 class="texto-header">Serviços Contratados</h2>
+                </div>
+                <div class="icone-banco col text-end">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="20" height="20" fill="url(#pattern0_28_61)" />
+                        <defs>
+                            <pattern id="pattern0_28_61" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_28_61" transform="scale(0.0333333)" />
+                            </pattern>
+                            <image id="image0_28_61" width="30" height="30"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABUUlEQVR4nO3WsUodQRSA4VVBsBML7UwRQewEC9HKwiJ2aQJ5AsFKrAQrS32BiLGwt9FGLCSNkkoLIa0imGAnCkGUgH5yYZThmuuO1x0L8YdT7HDO/Idh5+wWxTsJYAJ7ISaK3GAIPzzmJ0ZzCHuxjBuNucUaPlYh7MICrqTzLzTZ3YywHdM41zx/MY+OFGErvuBYdfzBJNqeEu8+Y8OFEKnsViKOalLZKTvuMtYxFuWPYSO10YaU1K9GeX3oj55XcooHQs5ifTP4kFPcFXKWorXaUDkKkU38OcobxBy2cF1S56XiU4z/p6YnNJBNfM9heJm+3k8mdOJSBvEl9nFQt16bci2h9lcO8Vkk2IzWt6Nxe5FDXGOq7h4PRM3MeILiheLa1fmG4Sh/BN/D9zib+IFm8xuSuhFmQ7y6+FkUCeLfquck9de1SvkJPpWK33lz3AGG9OoABQC2OAAAAABJRU5ErkJggg==" />
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="container-fluid p-4 ">
+            <!-- navegação -->
+            <div class="d-flex flex-row gap-4">
+                <a class="text-add" style="cursor: pointer;">Serviços contratados</a>
+                <p class="" style="cursor: pointer;">Ganhos</p>
+                <p class="" style="cursor: pointer;">Gastos</p>
+            </div>
+            <!-- Pesquisar -->
+            <div class="d-flex">
+                <div class="campo-pesquisar flex-row d-flex w-100 mb-3 gap-4" alt="Max-width 100%">
+                    <div class="position-relative w-100">
+                        <svg class="position-absolute start-0 top-50 translate-middle-y ms-2" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <rect width="30" height="30" fill="url(#pattern0_20_231)" />
+                            <defs>
+                                <pattern id="pattern0_20_231" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use xlink:href="#image0_20_231" transform="scale(0.0208333)" />
+                                </pattern>
+                                <image id="image0_20_231" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAB9UlEQVR42u3XS0jUURTH8e9Y/B2oDCNokTBahIsWuYgCo01Bi4LaFE0lBS1a9iAiIkFBBV8bdSHMQmHQlQq+xpULFUXEnY+NIj6WiiDiEx8jHC5/VJyZc/07u//nLP2de453LgyDz5d2efwkxiQr7LDICBFeEuSCPGGI+Bm1ThnX8CibDuJJapkwHuQzYw7apZOv3OcmDjk8pZxp85dDKsg47/Gr5ogouZwW4J07PgL2ssyO23wikSu0mxE/sNYmjZs8IpkAjZLb4yFWHnMolxMmlcv0y4gBrAxKUwsaOWxJ+gVquebl3EGnyqyj9ksautEKSX4NB6WYNHxDb0o6ClGakHgBek3SEUZpVeK30KuQjt8obUv8Knr/pKMUpQWJ30WvXjq+ozQq8efodUnHW5QiEq9Gy2FdOkIovZL4LBlW+TnUgmajIjQCjEm6BOtnN08WqRVJdovbWLjOirT1prymB2xIshIrspdUM5kkVsCS2f8G1mrMiGHyEtz9Z2R7qR4cLF0i6n7l15F/6hm8Zpz4ierGwdpfDtwDZohSTTENxI5tvul1RCEjxBPUDrVk0+p1BLyhHbOzW0uUEzJX6XWECPKML/ynkj985B7GGSO61CPsH4SpPjL9Ea4kn0UbpPO/2Oc9pG/EPh8A0jci7P/q9F28I9JlL0Criqf3AAAAAElFTkSuQmCC" />
+                            </defs>
+                        </svg>
+                        <input type="text" class="form-control ps-5 pe-5" placeholder="Pesquisar....">
+                        <svg class="position-absolute end-0 top-50 translate-middle-y me-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <rect width="20" height="20" fill="url(#pattern0_20_232)" fill-opacity="0.2" />
+                            <defs>
+                                <pattern id="pattern0_20_232" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use xlink:href="#image0_20_232" transform="scale(0.0208333)" />
+                                </pattern>
+                                <image id="image0_20_232" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADdklEQVRoge2ZW2wNURSGV+vygOCEtFFEVMQDEpco8VTiSYkHiYSIuLWuoS99EdUS0hIq4YW4l0SEeBEhqegL4lqXF5ekIaKKSlESEpT/z9oTk56ZOTMyc6YnPX/yJacze9Zea2bvtdfeFckqq1g0EswB60EtOAWugCegGbSBdtAJfpvf7829h+AyOAF2grVgFhgWlbNjwVJwANwB38CfiPgMboA6sAiM+l+nc0E5eB2hs37hV+OXzgkSwMEURjkkbosOg21gNZgHpoJCkAcS5kXkmt/55l4RmA/WgGpwGtwDHSn6rPPr/BTRsetmaH+QNxFQI8ACUAOug6+2fjuNbylVJd5vohX0CdlxNw0Ed219b/Hz0D7xDoBwTDILMYPsAfXgKngMXooOsU/y783x74+i47lJNAudFH3TpaBY9O07aZet3xo/AazwEUBUfAGNYC9YApaDD7b7i/0E0B+8jTEIN/hl+/kJgJrRJfKu8N5N0QWsUvSrlYBpoplmiGjmyTEkzLVC06bEPFNpbNxK0d87MNmv85byTQeXwAXRlMf0VxDUUAAVmD7Y11lwHlSAwRH2mZkaJJqFOAyqwXHQAB6IZpoW0czzy9BurjWbNg3mmSpjg7YS6XCc45kr73cJf5Iy0KOiSSQy2XNyVFwTLT9CF0voHw4d8tomMFd0qWemGS46JHqB3uY3F6oxovUS66Z1ogvTGdEF0G5zYRQBlDk4b1EWgv0jNnuHQrCXpM3iHkBTCPY32OzVh2AvScXiPXa503omybWQtSPjYsQsxF0bd2/HRDMYS3EOwTabrfIoAuDEakwRRBgwkMgWLk7E+xE6z680PSrnLXEvsFK0HLaGAUti1jcTxH1HlmfuTTRtS82znLCHwUbJlgw9XDPBRdGTDGYd+/FLh7n2SrTCLIrHRXexIGO69DtZf4qeNXULjRbnEoNwLWh3uceC0G0fnFZtlWTnuKA5HUSNA89t7SrS5KOnWAI7veHZLu2329pEUvMEFQ9onQI459B2KHhka1OVJh89NUm8T/IIM5K1Q7OucdKPj8FfR/GIPWjZsCMWTz20CryQ1I4/Bcti8tGXeJ6ZcGFAjH5llVHqC3aLnrHyPKjWXMsYOWWl2lg9Ciin0+3WWD0KKA6brgG8idWjgHIaQr7+u9JdxAnLIFokQydxVj1GfwHHGy0hYhyJxwAAAABJRU5ErkJggg==" />
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        <!-- end pesquisar -->
+
+        <div class="container-fluid  pt-0">
+
+            <!-- start cards -->
+
+            <div class="container-fluid p-0 ">
+                <div class="d-flex flex-column gap-3 " style="white-space: nowrap;">
+
+                    <div class="card1 d-flex gap-2 ">
+                        <div
+                            style="width: 10px; height: 100%; border-radius: 3px 0px 0px 3px; background-color: #080575;">
+
+                        </div>
+                        <div class="container d-flex flex-row align-items-center gap-2 ">
+
+                            <div class="col  ">
+                                <p class="mb-0 text-one ">itens Contratado</p>
+                                <p class="mb-0 ">seguro Cartao</p>
+                            </div>
+
+                            <div class="col">
+                                <p class="mb-0 ">|</p>
+                            </div>
+
+                            <div class="col">
+                                <p class="mb-0 text-one ">Valor</p>
+                                <p class="mb-0 ">R$ 15,00</p>
+                            </div>
+
+                            <div class="col text-end">
+                                <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <rect width="17" height="17" fill="url(#pattern0_20_238)" />
+                                    <defs>
+                                        <pattern id="pattern0_20_238" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_20_238" transform="scale(0.0208333)" />
+                                        </pattern>
+                                        <image id="image0_20_238" width="48" height="48"
+                                            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACcElEQVRogd2aS08UURCFa4HuwQegSFxo5t8YCUHQFQsDQXBMMDEu2as8fgksDKDshYAYlxrwD2AgGRgTBgh6jrdvcm2meTRV/bCSL5lMZqrP6Ufduve2iE50gCdgBnwAG2AHHIBG9Pk7WATTYAC0Kx07dVwDVbAGfqfgGKyAUdCWpfAucWfxV0rhzaiDd6DTUvgV8ALsKQqPw5MyAa5qi6+Ar4bC46yDe1rie8X2rCdRAw8uK34QHOYg3nMEhtKKH85ReAir1dOLiudtc1QA8eGVOPftxIenVgDRcfgcVs4Sz/KlVW0+gm5xtX1WKedn0HKagdeKZywsg9fF3csaeceTxN8WNyIW3cCuuN7rREwriidL4C64BeaUc7+Ji2djptnbWMMHujU0UC2AqIsyEhpI2xLnyScvnmVO6wHLEmq+QQOPlRK+F1fJ4sH5w7yRiT4eYEYpWVcT8T7uGBngJOjvHNbagBgZ4FWXH0rJ5s8wYWGACwWybZQ8CwNbTNwosYH9/8JAmW+hn0y8WWIDXAFUK6N5GGDlUxvI8jAwxcRarUQeBh4xMVeJLZo5awPHEqxwr5bQwHKY/HkJDTwLk3NKqTmhtzZQjzT/E1MlMvC2SX71ZRUrA4nLKoxXigcKW2vNCc3LJPEM7sJ8UTqQnx9Q/IJSzvVI46lR6sVdHz1S4uV1H0MFEE5SbXD4GJT8t5iG04r38VBc6cpavMomn4/7oledzoPqNqsP7oxwo9vyaphtdIfBtdRJ0R21/asGiSOsRbCZGhP3wkaa+QT/w5Y485c9msVN0C+uIeSo+03cakcjYjv6biH6TX/0n0vHH/mKoUbL2I7/AAAAAElFTkSuQmCC" />
+                                    </defs>
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card1 d-flex gap-2 ">
+                        <div
+                            style="width: 10px; height: 100%; border-radius: 3px 0px 0px 3px; background-color: #080575;">
+
+                        </div>
+                        <div class="container d-flex flex-row align-items-center gap-2  ">
+
+                            <div class="col  ">
+                                <p class="mb-0 text-one ">itens Contratado</p>
+                                <p class="mb-0 ">Seguro de vida</p>
+                            </div>
+
+                            <div class="col">
+                                <p class="mb-0 ">|</p>
+                            </div>
+
+                            <div class="col">
+                                <p class="mb-0 text-one">Valor</p>
+                                <p class="mb-0 ">R$ 25,00</p>
+                            </div>
+
+                            <div class="col text-end">
+                                <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <rect width="17" height="17" fill="url(#pattern0_20_238)" />
+                                    <defs>
+                                        <pattern id="pattern0_20_238" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_20_238" transform="scale(0.0208333)" />
+                                        </pattern>
+                                        <image id="image0_20_238" width="48" height="48"
+                                            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACcElEQVRogd2aS08UURCFa4HuwQegSFxo5t8YCUHQFQsDQXBMMDEu2as8fgksDKDshYAYlxrwD2AgGRgTBgh6jrdvcm2meTRV/bCSL5lMZqrP6Ufduve2iE50gCdgBnwAG2AHHIBG9Pk7WATTYAC0Kx07dVwDVbAGfqfgGKyAUdCWpfAucWfxV0rhzaiDd6DTUvgV8ALsKQqPw5MyAa5qi6+Ar4bC46yDe1rie8X2rCdRAw8uK34QHOYg3nMEhtKKH85ReAir1dOLiudtc1QA8eGVOPftxIenVgDRcfgcVs4Sz/KlVW0+gm5xtX1WKedn0HKagdeKZywsg9fF3csaeceTxN8WNyIW3cCuuN7rREwriidL4C64BeaUc7+Ji2djptnbWMMHujU0UC2AqIsyEhpI2xLnyScvnmVO6wHLEmq+QQOPlRK+F1fJ4sH5w7yRiT4eYEYpWVcT8T7uGBngJOjvHNbagBgZ4FWXH0rJ5s8wYWGACwWybZQ8CwNbTNwosYH9/8JAmW+hn0y8WWIDXAFUK6N5GGDlUxvI8jAwxcRarUQeBh4xMVeJLZo5awPHEqxwr5bQwHKY/HkJDTwLk3NKqTmhtzZQjzT/E1MlMvC2SX71ZRUrA4nLKoxXigcKW2vNCc3LJPEM7sJ8UTqQnx9Q/IJSzvVI46lR6sVdHz1S4uV1H0MFEE5SbXD4GJT8t5iG04r38VBc6cpavMomn4/7oledzoPqNqsP7oxwo9vyaphtdIfBtdRJ0R21/asGiSOsRbCZGhP3wkaa+QT/w5Y485c9msVN0C+uIeSo+03cakcjYjv6biH6TX/0n0vHH/mKoUbL2I7/AAAAAElFTkSuQmCC" />
+                                    </defs>
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card1 d-flex gap-2 ">
+                        <div
+                            style="width: 10px; height: 100%; border-radius: 3px 0px 0px 3px; background-color: #080575;">
+
+                        </div>
+                        <div class="container d-flex flex-row align-items-center gap-2  ">
+
+                            <div class="col  ">
+                                <p class="mb-0 text-one ">itens Contratado</p>
+                                <p class="mb-0 ">seguro Carro</p>
+                            </div>
+
+                            <div class="col">
+                                <p class="mb-0 ">|</p>
+                            </div>
+
+                            <div class="col">
+                                <p class="mb-0 text-one ">Valor</p>
+                                <p class="mb-0 ">R$ 35,00</p>
+                            </div>
+
+                            <div class="col text-end">
+                                <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <rect width="17" height="17" fill="url(#pattern0_20_238)" />
+                                    <defs>
+                                        <pattern id="pattern0_20_238" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_20_238" transform="scale(0.0208333)" />
+                                        </pattern>
+                                        <image id="image0_20_238" width="48" height="48"
+                                            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACcElEQVRogd2aS08UURCFa4HuwQegSFxo5t8YCUHQFQsDQXBMMDEu2as8fgksDKDshYAYlxrwD2AgGRgTBgh6jrdvcm2meTRV/bCSL5lMZqrP6Ufduve2iE50gCdgBnwAG2AHHIBG9Pk7WATTYAC0Kx07dVwDVbAGfqfgGKyAUdCWpfAucWfxV0rhzaiDd6DTUvgV8ALsKQqPw5MyAa5qi6+Ar4bC46yDe1rie8X2rCdRAw8uK34QHOYg3nMEhtKKH85ReAir1dOLiudtc1QA8eGVOPftxIenVgDRcfgcVs4Sz/KlVW0+gm5xtX1WKedn0HKagdeKZywsg9fF3csaeceTxN8WNyIW3cCuuN7rREwriidL4C64BeaUc7+Ji2djptnbWMMHujU0UC2AqIsyEhpI2xLnyScvnmVO6wHLEmq+QQOPlRK+F1fJ4sH5w7yRiT4eYEYpWVcT8T7uGBngJOjvHNbagBgZ4FWXH0rJ5s8wYWGACwWybZQ8CwNbTNwosYH9/8JAmW+hn0y8WWIDXAFUK6N5GGDlUxvI8jAwxcRarUQeBh4xMVeJLZo5awPHEqxwr5bQwHKY/HkJDTwLk3NKqTmhtzZQjzT/E1MlMvC2SX71ZRUrA4nLKoxXigcKW2vNCc3LJPEM7sJ8UTqQnx9Q/IJSzvVI46lR6sVdHz1S4uV1H0MFEE5SbXD4GJT8t5iG04r38VBc6cpavMomn4/7oledzoPqNqsP7oxwo9vyaphtdIfBtdRJ0R21/asGiSOsRbCZGhP3wkaa+QT/w5Y485c9msVN0C+uIeSo+03cakcjYjv6biH6TX/0n0vHH/mKoUbL2I7/AAAAAElFTkSuQmCC" />
+                                    </defs>
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end cards -->
+
+        <div class="container-fluid pt-5 ">
+            <div class="d-flex  flex-column gap-4 ">
+
+
+                <div class="card-crud d-flex align-items-center text-center gap-4 " style="cursor: pointer;">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="20" height="20" fill="url(#pattern0_20_254)" />
+                        <defs>
+                            <pattern id="pattern0_20_254" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_20_254" transform="scale(0.0208333)" />
+                            </pattern>
+                            <image id="image0_20_254" width="48" height="48"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACXUlEQVRoge2YTUsVURjHH62VIhaKWRr0HUJ8g8jvIC6CWhiIi/wYZgjiK+LCnVILv4FIEOJGXQViWWDRokCREt1Y3vo/nOfouYPee17m3NGYP/wWd+bcmd9/5szcuUOUJ89/mXYwBqqyFvHJQ3AA/oJ5UJ2tjlv4yP8kJf+DrlkJ88i/ArfAhnx+DW5kp1Y+SXkdLrEpy9+Am5VXKx9z2hTAQGJ9I3gv6xeozJmYAaspUOsoz+KT4BCcgv7EuDtGydFSG1yVQaHUW8jracPyQ7KsC/yi4jPBt9Jp2e4X8MCmQAOoCcBHXkeX4DPxlNQ1YSVvFrCR8I05bV5cMqab1HQqiM9ncN9m47EL2MjrLIrLJ9Bqu4OYBUpNm2SGxWOXLKaNmVgFfOR3yOHI68Qo4CL/ks7lW3x2lnaBispz0izgIj9CKchz0iqQiTwnjQKZyXNCC9jK8+PBhOzrI6Ukzwkp4Ct/z2Nfl8a3gIv8JEWS5/gUiCHPj89NDg5ncS3gIj9F9kd+H3y1dCiKS4EOsnswM5/nt8Fdi21HL8DyhzJ2psS4Klmv5ZstPaIX0HOZOQY9F4wxj/wHcrtgoxdYlnGD4IRUicfG+hB5TvQC30i9eOL0gt/gCDyi4mnD8jZzPpmoBepIXbgrxrIn4A+p/7JLso0tUrdDn0Qt0CZjxo1l/O5mjs6vixB5TtQCz2TMOngH9qj4lQrfbULkOVEL6D8emu/gLZgl9XuQxuNB1AJ94DnoBLd9dmKRivwSx0xeIC8QmLxAXiAwwQX2M6bgW2BJvngVWPMpkCePY/4BkcZrseQZn2IAAAAASUVORK5CYII=" />
+                        </defs>
+                    </svg>
+
+                    <a class="text-center">Editar</a>
+                </div>
+
+
+                <div class="card-crud  d-flex align-items-center text-center gap-4" style="cursor: pointer;">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="20" height="20" fill="url(#pattern0_20_258)" />
+                        <defs>
+                            <pattern id="pattern0_20_258" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_20_258" transform="scale(0.0208333)" />
+                            </pattern>
+                            <image id="image0_20_258" width="48" height="48"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAi0lEQVRoge3YQQqAMAxE0d7/Wuq5qj1BkTr9pf5AVoFkHqgLS/lp1VALeAtYdd/0gwLog0P7Ui/krMYDRL9c05/Nr+8LGCwB2wOup8/gPA6g592iAwqgAwqgAwqgAwqgAwqgAwqgAwqgAwqgAwqgAwqgAwqgAwroLWh/1Y7gPA5IlwABgyWgLtL7Am54jBFFD53DOwAAAABJRU5ErkJggg==" />
+                        </defs>
+                    </svg>
+
+                    <a class="text-center">Excluir</a>
+                </div>
+
+                <div class="card-crud  d-flex align-items-center text-center gap-4" style="cursor: pointer;">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="20" height="20" fill="url(#pattern0_20_259)" />
+                        <defs>
+                            <pattern id="pattern0_20_259" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_20_259" transform="scale(0.0208333)" />
+                            </pattern>
+                            <image id="image0_20_259" width="48" height="48"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAAbklEQVR42u3XsQnAIBBG4TfMrSgBC7HMTrauoasYsEgahRAQDPzvSsGvsThRSu2WUakYy/I0Gp5lxQ5EAQIECADDcQwndSBNTh3Gqwrt45RNACNwDif3a/LkNGB6pgIECLiBv66Oz/KrX4BSm3UBzJemVwjKkPIAAAAASUVORK5CYII=" />
+                        </defs>
+                    </svg>
+
+                    <a class="text-center">Adicionar</a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+</body>
+
+</html>

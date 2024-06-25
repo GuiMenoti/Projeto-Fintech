@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Alatsi", sans-serif;
+    
+
+}
+
+header {
+    background-color: #090575bd ;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+
+.texto-header {
+    color: white ;
+    font-size: 22px;
+}
+
+.text-add {
+  
+    color: #080575;
+ 
+
+}
+
+
+.campo-pesquisar {
+  
+    height: 45px;
+    border-radius: 5px;
+    padding: 7px;
+    align-items: center;
+    padding-left: 10px;
+ 
+}
+
+.campo-pesquisar a {
+   text-decoration: none;
+   color: #00000041;
+ 
+}
+
+
+.card1 {
+    background-color: #CACADB55;
+  
+    height: 62px;
+    border-radius: 5px;
+
+}
+
+.text-one {
+    color: #00000060;
+    font-size: 13px;
+}
+
+
+
+
+.card-crud {
+    background-color: #00000020 ;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    height: 40px;
+    padding-left: 20px;
+}
+
+.card-crud a {
+    text-decoration: none;
+    color: #00000081;
+}
